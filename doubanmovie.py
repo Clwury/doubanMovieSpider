@@ -98,7 +98,7 @@ def insertTable(List):
     db.close()
 #connectMysql()连接数据库
 #createTable()创建表
-for i in range(121,500):#99to 500
+for i in range(500):#to 500
     if i==499:
         jsondata = getJson(9979)
         dicts = json.loads(jsondata)
